@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-container"></div>
+    <h1></h1>
+    <div class="mainbox">
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email" class="label">EMAIL</label>
+                <input type="email" id="email" class="input" required>
+            </div>
+            <div class="form-group">
+                <label for="username" class="label">USERNAME</label>
+                <input type="text" id="username" class="input" required>
+            </div>
+            <div class="form-group">
+                <label for="password" class="label">PASSWORD</label>
+                <input type="password" id="password" class="input" required>
+            </div>
+            <div class="form-group">
+                <label for="token" class="label">TOKEN CODE</label>
+                <input type="text" id="token" class="input">
+                <br>
+                <input class="poco" type="checkbox">
+                <label class="gangbang">Remember me</label>
+            </div>
+            <a href="main/main.html" class="enter" id="loginButton">LOGIN</a>
+        </form>
+        <a href="signup/signup.html" class="signup-link">Not a member? Sign up for free now!</a>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
